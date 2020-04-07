@@ -11,7 +11,7 @@ while (stage_number > 25)
 end
 
 i = 0
-
+# On crée une variable count pour faire fonctionner notre boucle et pouvoir la comparer avec la variable stage_number
 count = stage_number
 
 while (count > 0) 
