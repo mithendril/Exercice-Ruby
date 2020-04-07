@@ -5,6 +5,8 @@ nb_year_beetwen = 2020 - birth_year + 1
 
 i = 0
 
+# Meme programme que l'exo_16 mais on ajoute une condition pour vérifier quand le nombre des années (nb_year_beetwen) correspond à l'age (i)
+
 nb_year_beetwen.times do
     nb_year_beetwen = nb_year_beetwen - 1 
     if i == nb_year_beetwen
@@ -14,3 +16,4 @@ nb_year_beetwen.times do
     end
     i = i + 1
 end
+
